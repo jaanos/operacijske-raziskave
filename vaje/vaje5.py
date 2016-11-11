@@ -7,7 +7,9 @@ def plakati(x, v, d):
     Časovna zahtevnost: O(n),
     kjer je n dolžina seznamov x in v.
     """
-    assert len(x) == len(v)
+    n = len(x)
+    assert n == len(v)
+    assert all(x[i-1] < x[i] for i in range(1, n))
     j = 0
     s = []
     for i, xi in enumerate(x):
@@ -30,7 +32,7 @@ def plakati(x, v, d):
     p, r, b = s[-1]
     l = []
     if b:
-        l.append(len(x) - 1)
+        l.append(n - 1)
     while r is not None:
         c = r
         _, r, b = s[r]
