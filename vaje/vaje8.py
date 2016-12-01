@@ -10,7 +10,7 @@ Pri tem predpostavljamo, da velja n = O(m)
 
 def nothing(u, v = None):
     """
-    Previsit/postvisit funkcija, ki ne naredi nič.
+    Visit funkcija, ki ne naredi nič.
 
     Časovna zahtevnost: O(1)
     """
@@ -195,11 +195,11 @@ class MatricniGraf(Graf):
                             return [self.voz[k] for k in (i, j, h)]
         return None
 
-    def BFS(self, koreni = None, previsit = nothing, postvisit = nothing):
+    def BFS(self, koreni = None, visit = nothing):
         """
         Iskanje v globino.
 
-        Časovna zahtevnost: O(n^2) + O(n) klicev funkcij previsit/postvisit
+        Časovna zahtevnost: O(n^2) + O(n) klicev funkcije visit
         """
         if koreni is None:
             koreni = range(self.n)
@@ -219,7 +219,7 @@ class MatricniGraf(Graf):
                 naslednji = []
                 for i in nivo:
                     s = None if stars[i] is None else self.voz[stars[i]]
-                    if not previsit(self.voz[i], s):
+                    if not visit(self.voz[i], s):
                         uspeh = False
                         break
                     for j, x in enumerate(self.A[i]):
@@ -229,9 +229,6 @@ class MatricniGraf(Graf):
                             globina[j] = d
                             stars[j] = i
                             naslednji.append(j)
-                    if not postvisit(self.voz[i], s):
-                        uspeh = False
-                        break
                 nivo = naslednji
                 d += 1
         return (uspeh, {u: globina[i] for u, i in self.indeksi.items()},
@@ -399,11 +396,11 @@ class MnozicniGraf(Graf):
                         return [u, v, w]
         return None
 
-    def BFS(self, koreni = None, previsit = nothing, postvisit = nothing):
+    def BFS(self, koreni = None, visit = nothing):
         """
         Iskanje v globino.
 
-        Časovna zahtevnost: O(m) + O(n) klicev funkcij previsit/postvisit
+        Časovna zahtevnost: O(m) + O(n) klicev funkcije visit
         """
         if koreni is None:
             koreni = self.vozlisca()
@@ -420,7 +417,7 @@ class MnozicniGraf(Graf):
             while len(nivo) > 0:
                 naslednji = []
                 for u in nivo:
-                    if not previsit(u, stars[u]):
+                    if not visit(u, stars[u]):
                         uspeh = False
                         break
                     for v in self.sos[u]:
@@ -428,9 +425,6 @@ class MnozicniGraf(Graf):
                             globina[v] = i
                             stars[v] = u
                             naslednji.append(v)
-                    if not postvisit(u, stars[u]):
-                        uspeh = False
-                        break
                 nivo = naslednji
                 i += 1
         for u in self.sos:
