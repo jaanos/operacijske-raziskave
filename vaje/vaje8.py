@@ -195,33 +195,6 @@ class MatricniGraf(Graf):
                             return [self.voz[k] for k in (i, j, h)]
         return None
 
-    def trikotnikDFS(self):
-        """
-        S pomočjo iskanja v globino določi, ali ima graf trikotnik.
-
-        Časovna zahtevnost: O(n^2)
-        """
-        nivo = [None] * self.n
-        sklad = []
-        for h in range(self.n):
-            if nivo[h] is not None:
-                continue
-            sklad.append((h, None))
-            while len(sklad) > 0:
-                i, j = sklad.pop()
-                if j is None:
-                    nivo[i] = 0
-                else:
-                    nivo[i] = nivo[j] + 1
-                for k in reversed(range(self.n)):
-                    if self.A[i][k] is None:
-                        continue
-                    if nivo[k] is None:
-                        sklad.append((k, i))
-                    elif j is not None and nivo[k] + 1 == nivo[j]:
-                        return [self.voz[l] for l in (k, j, i)]
-        return None
-
     def BFS(self, koreni = None, previsit = nothing, postvisit = nothing):
         """
         Iskanje v globino.
@@ -424,31 +397,6 @@ class MnozicniGraf(Graf):
                 for w in self.sos[v]:
                     if u in self.sos[w]:
                         return [u, v, w]
-        return None
-
-    def trikotnikDFS(self):
-        """
-        S pomočjo iskanja v globino določi, ali ima graf trikotnik.
-
-        Časovna zahtevnost: O(m)
-        """
-        nivo = {}
-        sklad = []
-        for u in self.sos:
-            if u in nivo:
-                continue
-            sklad.append((u, None))
-            while len(sklad) > 0:
-                v, w = sklad.pop()
-                if w is None:
-                    nivo[v] = 0
-                else:
-                    nivo[v] = nivo[w] + 1
-                for x in self.sos[v]:
-                    if x not in nivo:
-                        sklad.append((x, v))
-                    elif w is not None and nivo[x] + 1 == nivo[w]:
-                        return [x, v, w]
         return None
 
     def BFS(self, koreni = None, previsit = nothing, postvisit = nothing):
