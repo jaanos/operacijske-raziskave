@@ -433,7 +433,7 @@ class MnozicniGraf(Graf):
                 stars[u] = None
         return (uspeh, globina, stars)
 
-class MnozicniDigraf(MnozicniGraf):
+class MnozicniDigraf(MnozicniGraf, Digraf):
     """
     Digraf, predstavljen z množicami sosedov.
 
