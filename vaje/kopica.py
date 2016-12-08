@@ -128,7 +128,7 @@ class Kopica:
         """
         Odstrani in vrne element na vrhu kopice in njegovo vrednost.
 
-        Časovna zahtevnost: O(n)
+        Časovna zahtevnost: O(log(n))
         """
         vrednost, stevec, element = self.seznam[0]
         del self[element]
