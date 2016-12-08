@@ -152,7 +152,7 @@ class Kopica:
         """
         Spusti element na mestu i do ustreznega mesta.
 
-        Časovna zahtevnost: O(log(n-i))
+        Časovna zahtevnost: O(log(n/i))
         """
         l = len(self.seznam)
         j = 2*i + 1
