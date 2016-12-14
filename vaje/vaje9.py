@@ -171,6 +171,8 @@ def dvojniDijkstra(G, s, t):
     doseženih od enega od s in t, ki so sosedna kateremu od vozlišč,
     doseženih iz drugega začetnega vozlišča.
     Za vozlišče na najkrajši poti sta tako razdalji do s in t že določeni.
+
+    Časovna zahtevnost: O(m log n)
     """
     inf = float('inf')
     K = Kopica(dict([((v, 0), (0 if v == s else inf)) for v in G.vozlisca()] +
