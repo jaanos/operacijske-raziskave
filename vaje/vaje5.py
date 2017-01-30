@@ -78,20 +78,18 @@ def palindrom(s):
     """
     Najdaljši palindromski strnjen podniz.
 
-    Časovna zahtevnost: O(n),
+    Časovna zahtevnost: O(n^2),
     kjer je n dolžina vhodnega niza
+
+    Za algoritem, ki teče v času O(n), glej
+    https://en.wikipedia.org/wiki/Longest_palindromic_substring
     """
-    if len(s) == 0:
-        return (0, s)
-    i, j = 1, 0
-    l = [0]
-    for i in range(1, len(s)):
-        if s[i] != s[j]:
-            j = i
-        k = j
-        if l[i-1] > 0 and s[l[i-1]-1] == s[i]:
-            k = l[i-1] - 1
-        l.append(k)
-    d = [(i-j, j) for i, j in enumerate(l)]
-    q, r = max(d)
-    return (r, s[r:r+q+1])
+    n = len(s)
+    V = {(i, i+1): True for i in range(n)}
+    for i in range(1, n):
+        V[i-1, i+1] = s[i-1] == s[i]
+    for j in range(2, n):
+        for i in range(n-j):
+            V[i, i+j+1] = V[i+1, i+j] and s[i] == s[i+j]
+    l, i = max((j-i, i) for (i, j), b in V.items() if b)
+    return (i, s[i:i+l])
