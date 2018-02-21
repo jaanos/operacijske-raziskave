@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Funkcije na grafih.
+Strukture za grafe in funkcije na njih.
 
 V ocenah časovne zahtevnosti je n število vozlišč v grafu,
 m število povezav v grafu, d(u) pa število sosedov vozlišča u.
