@@ -2,6 +2,13 @@
 
 Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
 
+## 2017/18
+
+### Vaje 21.2.2018 - zahtevnost algoritmov
+
+* [`Zahtevnost/`](Zahtevnost/)
+    - [`zahtevnost.py`](Zahtevnost/zahtevnost.py)
+
 ## 2016/17
 
 ### Vaje 26.10.2016 - celoštevilsko linearno programiranje
