@@ -6,17 +6,23 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
 
 ### Vaje 21.2.2018 - zahtevnost algoritmov
 
-* [`Zahtevnost/`](Zahtevnost/)
+* [`Zahtevnost`](Zahtevnost/)
     - [`zahtevnost.py`](Zahtevnost/zahtevnost.py)
+
+### Vaje 12.3.2018 - celoštevilsko linearno programiranje
+
+* [`CLP`](CLP/)
+    - [`CLP-Kukavica.ipynb`](CLP/CLP-Kukavica.ipynb)
+    - [`CLP-Vinar.ipynb`](CLP/CLP-Vinar.ipynb)
 
 ## 2016/17
 
 ### Vaje 26.10.2016 - celoštevilsko linearno programiranje
 
-* [`CLP/`](CLP/)
-    - [`ILP-Kukavica.sagews`](CLP/ILP-Kukavica.sagews)
-    - [`ILP-VpetoDrevo.sagews`](CLP/ILP-VpetoDrevo.sagews)
-    - [`ILP-Vinar.sagews`](CLP/ILP-Vinar.sagews)
+* [`CLP/2016/`](CLP/2016/)
+    - [`ILP-VpetoDrevo.sagews`](CLP/2016/ILP-VpetoDrevo.sagews)
+    - [`ILP-Kukavica.sagews`](CLP/2016/ILP-Kukavica.sagews)
+    - [`ILP-Vinar.sagews`](CLP/2016/ILP-Vinar.sagews)
 
 ### Vaje 9.11.2016 - dinamično programiranje
 
