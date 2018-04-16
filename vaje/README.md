@@ -15,6 +15,13 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`CLP-Kukavica.ipynb`](CLP/CLP-Kukavica.ipynb)
     - [`CLP-Vinar.ipynb`](CLP/CLP-Vinar.ipynb)
 
+### Vaje 16.4.2018 - dinamično programiranje
+
+* [`DinamicnoProgramiranje`](DinamicnoProgramiranje/)
+    - [`plakati.py`](DinamicnoProgramiranje/plakati.py)
+    - [`matrixPath.py`](DinamicnoProgramiranje/matrixPath.py)
+    - [`palindrom.py`](DinamicnoProgramiranje/palindrom.py)
+
 ## 2016/17
 
 ### Vaje 26.10.2016 - celoštevilsko linearno programiranje
