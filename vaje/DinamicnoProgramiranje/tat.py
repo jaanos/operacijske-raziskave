@@ -12,21 +12,28 @@ def tat(c):
         return [0, []]
     elif len(c) == 1:
         return [c[0], [0]]
-    V = [(c[0], [0])]
+    V = [(c[0], True)]
     if c[1] > c[0]:
-        v, s = c[1], [1]
+        v, s = c[1], True
     else:
-        v, s = V[0]
+        v, s = c[0], False
     V.append((v, s))
     for i in range(2, len(c)):
-        if s[-1] == i-1:
-            vv, ss = V[-2]
-            vv += c[i]
-            if vv > v:
+        if s:
+            vv = V[-2][0] + c[i]
+            s = vv > v
+            if s:
                 v = vv
-                s = ss + [i]
         else:
             v += c[i]
-            s = s + [i]
+            s = True
         V.append((v, s))
-    return V[-1]
+    l = []
+    i = len(V) - 1
+    while i >= 0:
+        if V[i][1]:
+            l.append(i)
+            i -= 2
+        else:
+            i -= 1
+    return V[-1][0], list(reversed(l))
