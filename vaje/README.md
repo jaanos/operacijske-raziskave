@@ -22,6 +22,14 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`matrixPath.py`](DinamicnoProgramiranje/matrixPath.py)
     - [`palindrom.py`](DinamicnoProgramiranje/palindrom.py)
 
+### Vaje 18.4.2018 - dinamično programiranje
+
+* [`DinamicnoProgramiranje`](DinamicnoProgramiranje/)
+    - [`submatrixSum.py`](DinamicnoProgramiranje/submatrixSum.py)
+    - [`kovanci.py`](DinamicnoProgramiranje/kovanci.py)
+    - [`tat.py`](DinamicnoProgramiranje/tat.py)
+    - [`hlod.py`](DinamicnoProgramiranje/hlod.py)
+
 ## 2016/17
 
 ### Vaje 26.10.2016 - celoštevilsko linearno programiranje
