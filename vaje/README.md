@@ -30,6 +30,13 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`tat.py`](DinamicnoProgramiranje/tat.py)
     - [`hlod.py`](DinamicnoProgramiranje/hlod.py)
 
+### Vaje 23.4.2018 - dinamično programiranje
+
+* [`DinamicnoProgramiranje`](DinamicnoProgramiranje/)
+    - [`razporeditev.py`](DinamicnoProgramiranje/razporeditev.py)
+    - [`Podjetje.sagews`](DinamicnoProgramiranje/Podjetje.sagews)
+    - [`loncki.py`](DinamicnoProgramiranje/loncki.py)
+
 ## 2016/17
 
 ### Vaje 26.10.2016 - celoštevilsko linearno programiranje
