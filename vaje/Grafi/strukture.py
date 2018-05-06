@@ -42,9 +42,9 @@ class Graf:
         Časovna zahtevnost: O(n) iskanj v širino.
         """
         inf = float('inf')
-        return max(max(inf if x is None else x
-                       for x in self.BFS(koreni = [u])[1].values())
-                   for u in self.vozlisca())
+        return max(inf if x is None else x
+                   for u in self.vozlisca()
+                   for x in self.BFS(koreni = [u])[1].values())
 
 class Digraf(Graf):
     """
@@ -186,18 +186,20 @@ class MatricniGraf(Graf):
 
         Časovna zahtevnost: O(mn)
         """
-        for i in range(self.n):
-            for j in range(i+1, self.n):
-                if self.A[i][j] is not None:
-                    for h in range(j+1, self.n):
-                        if self.A[j][h] is not None and \
-                                self.A[h][i] is not None:
-                            return [self.voz[k] for k in (i, j, h)]
-        return None
+        try:
+            return next([self.voz[k] for k in (i, j, h)]
+                        for i in range(self.n)
+                        for j in range(i+1, self.n)
+                        if self.A[i][j] is not None
+                        for h in range(j+1, self.n)
+                        if self.A[j][h] is not None
+                        and self.A[h][i] is not None)
+        except StopIteration:
+            return None
 
     def BFS(self, koreni = None, visit = nothing):
         """
-        Iskanje v globino.
+        Iskanje v širino.
 
         Časovna zahtevnost: O(n^2) + O(n) klicev funkcije visit
         """
@@ -389,16 +391,16 @@ class MnozicniGraf(Graf):
         Časovna zahtevnost: O(mD),
         kjer je D največja stopnja vozlišča v grafu.
         """
-        for u, a in self.sos.items():
-            for v in a:
-                for w in self.sos[v]:
-                    if u in self.sos[w]:
-                        return [u, v, w]
-        return None
+        try:
+            return next([u, v, w] for u, a in self.sos.items()
+                                  for v in a for w in self.sos[v]
+                                  if u in self.sos[w])
+        except StopIteration:
+            return None
 
     def BFS(self, koreni = None, visit = nothing):
         """
-        Iskanje v globino.
+        Iskanje v širino.
 
         Časovna zahtevnost: O(m) + O(n) klicev funkcije visit
         """
