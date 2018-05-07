@@ -3,7 +3,9 @@
 Strukture za grafe in funkcije na njih.
 
 V ocenah časovne zahtevnosti je n število vozlišč v grafu,
-m število povezav v grafu, d(u) pa število sosedov vozlišča u.
+m število povezav v grafu,
+d(u) = d+(u) število (izhodnih) sosedov vozlišča u,
+d-(u) pa število vhodnih sosedov vozlišča u.
 Pri tem predpostavljamo, da velja n = O(m)
 (graf ima O(1) povezanih komponent).
 """
