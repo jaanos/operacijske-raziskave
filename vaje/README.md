@@ -37,6 +37,11 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`Podjetje.sagews`](DinamicnoProgramiranje/Podjetje.sagews)
     - [`loncki.py`](DinamicnoProgramiranje/loncki.py)
 
+### Vaje 7.5.2018 - strukture za grafe
+
+* [`Grafi`](Grafi/)
+    - [`strukture.py`](Grafi/strukture.py)
+
 ## 2016/17
 
 ### Vaje 26.10.2016 - celoštevilsko linearno programiranje
