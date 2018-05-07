@@ -290,6 +290,8 @@ class MatricniDigraf(MatricniGraf, Digraf):
         z = None
         for i, r in enumerate(self.A):
             if all((x is None) == (i == j) for j, x in enumerate(r)):
+                if z is not None:
+                    return None
                 z = self.voz[i]
             elif not all(x is None for x in r):
                 return None
@@ -496,6 +498,8 @@ class MnozicniDigraf(MnozicniGraf, Digraf):
         z = None
         for u, a in self.sos.items():
             if len(a) == self.n - 1 and u not in a:
+                if z is not None:
+                    return None
                 z = u
             elif len(a) != 0:
                 return None
