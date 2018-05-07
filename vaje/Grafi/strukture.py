@@ -100,7 +100,7 @@ class MatricniGraf(Graf):
         Časovna zahtevnost: O(n)
         """
         if u in self.indeksi:
-            raise ValueError("Vozlišče že obstaja!")
+            return
         self.voz.append(u)
         self.indeksi[u] = self.n
         self.n += 1
@@ -110,11 +110,13 @@ class MatricniGraf(Graf):
 
     def dodajPovezavo(self, u, v, utez = 1):
         """
-        Dodajanje povezave med obstoječima vozliščema.
+        Dodajanje povezave med vozliščema.
 
-        Časovna zahtevnost: O(1)
+        Časovna zahtevnost: O(1) + cena dodajanja novih vozlišč
         """
         assert utez is not None, "Utež mora biti določena!"
+        self.dodajVozlisce(u)
+        self.dodajVozlisce(v)
         i = self.indeksi[u]
         j = self.indeksi[v]
         self.A[i][j] = utez
@@ -248,9 +250,11 @@ class MatricniDigraf(MatricniGraf, Digraf):
         """
         Dodajanje povezave med obstoječima vozliščema.
 
-        Časovna zahtevnost: O(1)
+        Časovna zahtevnost: O(1) + cena dodajanja novih vozlišč
         """
         assert utez is not None, "Utež mora biti določena!"
+        self.dodajVozlisce(u)
+        self.dodajVozlisce(v)
         self.A[self.indeksi[u]][self.indeksi[v]] = utez
 
     def brisiPovezavo(self, u, v):
@@ -339,6 +343,8 @@ class MnozicniGraf(Graf):
         Časovna zahtevnost: O(1)
         """
         assert utez is not None, "Utež mora biti določena!"
+        self.dodajVozlisce(u)
+        self.dodajVozlisce(v)
         self.sos[u][v] = utez
         self.sos[v][u] = utez
 
@@ -349,7 +355,8 @@ class MnozicniGraf(Graf):
         Časovna zahtevnost: O(1)
         """
         del self.sos[u][v]
-        del self.sos[v][u]
+        if u != v:
+            del self.sos[v][u]
 
     def brisiVozlisce(self, u):
         """
@@ -444,6 +451,25 @@ class MnozicniDigraf(MnozicniGraf, Digraf):
     Prostorska zahtevnost: O(m)
     """
 
+    def __init__(self):
+        """
+        Inicializacija prazenga grafa.
+
+        Časovna zahtevnost: O(1)
+        """
+        MnozicniGraf.__init__(self)
+        self.vhodni = {}
+
+    def dodajVozlisce(self, u):
+        """
+        Dodajanje novega vozlišča (če še ne obstaja).
+
+        Časovna zahtevnost: O(1)
+        """
+        MnozicniGraf.dodajVozlisce(self, u)
+        if u not in self.vhodni:
+            self.vhodni[u] = {}
+
     def dodajPovezavo(self, u, v, utez = 1):
         """
         Dodajanje povezave med obstoječima vozliščema.
@@ -451,7 +477,10 @@ class MnozicniDigraf(MnozicniGraf, Digraf):
         Časovna zahtevnost: O(1)
         """
         assert utez is not None, "Utež mora biti določena!"
+        self.dodajVozlisce(u)
+        self.dodajVozlisce(v)
         self.sos[u][v] = utez
+        self.vhodni[v][u] = utez
 
     def brisiPovezavo(self, u, v):
         """
@@ -460,34 +489,37 @@ class MnozicniDigraf(MnozicniGraf, Digraf):
         Časovna zahtevnost: O(1)
         """
         del self.sos[u][v]
+        del self.vhodni[v][u]
 
     def brisiVozlisce(self, u):
         """
         Brisanje obstoječega vozlišča.
 
-        Časovna zahtevnost: O(n)
+        Časovna zahtevnost: O(d+(u) + d-(u))
         """
+        for v in self.sos[u]:
+            del self.vhodni[v][u]
+        for v in self.vhodni[u]:
+            del self.sos[v][u]
         del self.sos[u]
-        for v, a in self.sos.items():
-            if u in a:
-                del a[u]
+        del self.vhodni[u]
         self.n -= 1
 
     def vhodniSosedi(self, u):
         """
         Seznam vhodnih sosedov obstoječega vozlišča.
 
-        Časovna zahtevnost: O(n)
+        Časovna zahtevnost: O(d-(u))
         """
-        return [v for v, a in self.sos.items() if u in a]
+        return self.vhodni.keys()
 
     def utezeniVhodniSosedi(self, u):
         """
         Slovar uteži povezav v obstoječe vozlišče.
 
-        Časovna zahtevnost: O(n)
+        Časovna zahtevnost: O(d-(u))
         """
-        return {v: a[u] for v, a in self.sos.items() if u in a}
+        return dict(self.vhodni)
 
     def zvezda(self):
         """
