@@ -42,6 +42,14 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
 * [`Grafi`](Grafi/)
     - [`strukture.py`](Grafi/strukture.py)
 
+### Vaje 14.5.2018 - iskanje v širino, Dijkstrov algoritem
+
+* [`Grafi`](Grafi/)
+    - [`strukture.py`](Grafi/strukture.py)
+        + `BFS`
+    - [`kopica.py`](Grafi/kopica.py)
+    - [`poti.py`](Grafi/poti.py)
+
 ## 2016/17
 
 ### Vaje 26.10.2016 - celoštevilsko linearno programiranje
