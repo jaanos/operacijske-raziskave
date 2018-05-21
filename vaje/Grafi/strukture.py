@@ -37,6 +37,78 @@ class Graf:
         """
         return self.n
 
+    def BFS(self, koreni = None, visit = nothing):
+        """
+        Iskanje v širino.
+
+        Časovna zahtevnost: iskanje sosedov vsakega vozlišča
+                            + O(n) klicev funkcije visit
+        """
+        if koreni is None:
+            koreni = self.vozlisca()
+        globina = {}
+        stars = {}
+        uspeh = True
+        for w in koreni:
+            if w in globina:
+                continue
+            nivo = [w]
+            globina[w] = 0
+            stars[w] = None
+            i = 1
+            while len(nivo) > 0:
+                naslednji = []
+                for u in nivo:
+                    if not visit(u, stars[u]):
+                        uspeh = False
+                        break
+                    for v in self.sosedi(u):
+                        if v not in globina:
+                            globina[v] = i
+                            stars[v] = u
+                            naslednji.append(v)
+                nivo = naslednji
+                i += 1
+        for u in self.vozlisca():
+            if u not in globina:
+                globina[u] = None
+                stars[u] = None
+        return (uspeh, globina, stars)
+
+    def DFS(self, koreni = None, previsit = nothing, postvisit = nothing):
+        """
+        Iskanje v globino.
+
+        Časovna zahtevnost: iskanje sosedov vsakega vozlišča
+                            + O(n) klicev funkcij previsit in postvisit
+        """
+        if koreni is None:
+            koreni = self.vozlisca()
+        globina = {}
+        stars = {}
+        uspeh = False
+        def obisci(u, v):
+            if u in globina:
+                return True
+            globina[u] = 0 if v is None else (globina[v] + 1)
+            stars[u] = v
+            if not previsit(u, v):
+                return False
+            for w in self.sosedi(u):
+                if not obisci(w, u):
+                    return False
+            return postvisit(u, v)
+        for w in koreni:
+            if not obisci(w, None):
+                break
+        else:
+            uspeh = True
+        for u in self.vozlisca():
+            if u not in globina:
+                globina[u] = None
+                stars[u] = None
+        return (uspeh, globina, stars)
+
     def premer(self):
         """
         Premer grafa.
@@ -200,46 +272,6 @@ class MatricniGraf(Graf):
                         and self.A[h][i] is not None)
         except StopIteration:
             return None
-
-    def BFS(self, koreni = None, visit = nothing):
-        """
-        Iskanje v širino.
-
-        Časovna zahtevnost: O(n^2) + O(n) klicev funkcije visit
-        """
-        if koreni is None:
-            koreni = range(self.n)
-        else:
-            koreni = [self.indeksi[u] for u in koreni]
-        globina = [None] * self.n
-        stars = [None] * self.n
-        uspeh = True
-        for h in koreni:
-            if globina[h] is not None:
-                continue
-            nivo = [h]
-            globina[h] = 0
-            stars[h] = None
-            d = 1
-            while len(nivo) > 0:
-                naslednji = []
-                for i in nivo:
-                    s = None if stars[i] is None else self.voz[stars[i]]
-                    if not visit(self.voz[i], s):
-                        uspeh = False
-                        break
-                    for j, x in enumerate(self.A[i]):
-                        if x is None:
-                            continue
-                        if globina[j] is None:
-                            globina[j] = d
-                            stars[j] = i
-                            naslednji.append(j)
-                nivo = naslednji
-                d += 1
-        return (uspeh, {u: globina[i] for u, i in self.indeksi.items()},
-                {u: None if stars[i] is None else self.voz[stars[i]]
-                 for u, i in self.indeksi.items()})
 
 class MatricniDigraf(MatricniGraf, Digraf):
     """
@@ -408,43 +440,6 @@ class MnozicniGraf(Graf):
                                   if u in self.sos[w])
         except StopIteration:
             return None
-
-    def BFS(self, koreni = None, visit = nothing):
-        """
-        Iskanje v širino.
-
-        Časovna zahtevnost: O(m) + O(n) klicev funkcije visit
-        """
-        if koreni is None:
-            koreni = self.vozlisca()
-        globina = {}
-        stars = {}
-        uspeh = True
-        for w in koreni:
-            if w in globina:
-                continue
-            nivo = [w]
-            globina[w] = 0
-            stars[w] = None
-            i = 1
-            while len(nivo) > 0:
-                naslednji = []
-                for u in nivo:
-                    if not visit(u, stars[u]):
-                        uspeh = False
-                        break
-                    for v in self.sos[u]:
-                        if v not in globina:
-                            globina[v] = i
-                            stars[v] = u
-                            naslednji.append(v)
-                nivo = naslednji
-                i += 1
-        for u in self.sos:
-            if u not in globina:
-                globina[u] = None
-                stars[u] = None
-        return (uspeh, globina, stars)
 
 class MnozicniDigraf(MnozicniGraf, Digraf):
     """
