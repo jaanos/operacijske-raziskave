@@ -6,6 +6,7 @@ V ocenah časovne zahtevnosti je n število vozlišč v grafu,
 m število povezav v grafu, d(u) pa število sosedov vozlišča u.
 Pri tem predpostavljamo, da velja n = O(m)
 (graf ima O(1) povezanih komponent).
+Podane časovne zahtevnosti veljajo za predstavitev grafa s seznami sosedov.
 """
 
 def topoloskaUreditev(G):
