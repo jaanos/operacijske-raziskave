@@ -129,3 +129,30 @@ def dvojniDijkstra(G, s, t):
         v = p[1][v]
         qt.append(v)
     return (d, list(reversed(qs)) + qt)
+
+def bellmanFord(G, u):
+    """
+    Poišče najkrajše razdalje od vozlišča u do ostalih vozlišč.
+
+    Časovna zahtevnost: O(mn)
+    """
+    inf = float('inf')
+    razdalje = {v: 0 if v == u else inf for v in G.vozlisca()}
+    p = {u: None}
+    naslednji = {u}
+    for i in range(len(G)):
+        if len(naslednji) == 0:
+            break
+        trenutni, naslednji = naslednji, set()
+        for v in trenutni:
+            d = razdalje[v]
+            for w, r in G.utezeniSosedi(v).items():
+                r += d
+                if r < razdalje[w]:
+                    razdalje[w] = r
+                    p[w] = v
+                    naslednji.add(w)
+    else:
+        if len(naslednji) > 0:
+            raise ValueError("graf ima negativen cikel")
+    return (razdalje, p)
