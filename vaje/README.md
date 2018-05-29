@@ -59,6 +59,12 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
         + `bellmanFord`
     - [`dag.py`](Grafi/dag.py)
 
+### Vaje 28.5.2018 - načrtovanje projektov
+
+* [`NacrtovanjeProjektov`](NacrtovanjeProjektov/)
+    - [`LP-Gradbinec.ipynb`](NacrtovanjeProjektov/LP-Gradbinec.ipynb)
+    - [`PERT-Prenova.ipynb`](NacrtovanjeProjektov/PERT-Prenova.ipynb)
+
 ## 2016/17
 
 ### Vaje 26.10.2016 - celoštevilsko linearno programiranje
