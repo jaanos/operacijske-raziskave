@@ -65,6 +65,12 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`LP-Gradbinec.ipynb`](NacrtovanjeProjektov/LP-Gradbinec.ipynb)
     - [`PERT-Prenova.ipynb`](NacrtovanjeProjektov/PERT-Prenova.ipynb)
 
+### Vaje 6.6.2018 - upravljanje zalog
+
+* [`UpravljanjeZalog`](UpravljanjeZalog/)
+    - [`Zvocniki.ipynb`](UpravljanjeZalog/Zvocniki.ipynb)
+    - [`Akumulatorji.ipynb`](UpravljanjeZalog/Akumulatorji.ipynb)
+
 ## 2016/17
 
 ### Vaje 26.10.2016 - celoštevilsko linearno programiranje
