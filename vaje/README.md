@@ -1,5 +1,7 @@
 # Vaje
 
+[![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/)
+
 Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
 
 ## 2017/18
@@ -12,8 +14,8 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
 ### Vaje 12.3.2018 - celoštevilsko linearno programiranje
 
 * [`CLP`](CLP/)
-    - [`CLP-Kukavica.ipynb`](CLP/CLP-Kukavica.ipynb)
-    - [`CLP-Vinar.ipynb`](CLP/CLP-Vinar.ipynb)
+    - [`CLP-Kukavica.ipynb`](CLP/CLP-Kukavica.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/CLP-Kukavica.ipynb)
+    - [`CLP-Vinar.ipynb`](CLP/CLP-Vinar.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/CLP-Vinar.ipynb)
 
 ### Vaje 16.4.2018 - dinamično programiranje
 
@@ -34,7 +36,7 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
 
 * [`DinamicnoProgramiranje`](DinamicnoProgramiranje/)
     - [`razporeditev.py`](DinamicnoProgramiranje/razporeditev.py)
-    - [`Podjetje.sagews`](DinamicnoProgramiranje/Podjetje.sagews)
+    - [`Podjetje.sagews`](DinamicnoProgramiranje/Podjetje.sagews) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/DinamicnoProgramiranje/Podjetje.sagews)
     - [`loncki.py`](DinamicnoProgramiranje/loncki.py)
 
 ### Vaje 7.5.2018 - strukture za grafe
@@ -62,23 +64,23 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
 ### Vaje 28.5.2018 - načrtovanje projektov
 
 * [`NacrtovanjeProjektov`](NacrtovanjeProjektov/)
-    - [`LP-Gradbinec.ipynb`](NacrtovanjeProjektov/LP-Gradbinec.ipynb)
-    - [`PERT-Prenova.ipynb`](NacrtovanjeProjektov/PERT-Prenova.ipynb)
+    - [`LP-Gradbinec.ipynb`](NacrtovanjeProjektov/LP-Gradbinec.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/NacrtovanjeProjektov/LP-Gradbinec.ipynb)
+    - [`PERT-Prenova.ipynb`](NacrtovanjeProjektov/PERT-Prenova.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/NacrtovanjeProjektov/PERT-Prenova.ipynb)
 
 ### Vaje 6.6.2018 - upravljanje zalog
 
 * [`UpravljanjeZalog`](UpravljanjeZalog/)
-    - [`Zvocniki.ipynb`](UpravljanjeZalog/Zvocniki.ipynb)
-    - [`Akumulatorji.ipynb`](UpravljanjeZalog/Akumulatorji.ipynb)
+    - [`Zvocniki.ipynb`](UpravljanjeZalog/Zvocniki.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/UpravljanjeZalog/Zvocniki.ipynb)
+    - [`Akumulatorji.ipynb`](UpravljanjeZalog/Akumulatorji.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/UpravljanjeZalog/Akumulatorji.ipynb)
 
 ## 2016/17
 
 ### Vaje 26.10.2016 - celoštevilsko linearno programiranje
 
 * [`CLP/2016/`](CLP/2016/)
-    - [`ILP-VpetoDrevo.sagews`](CLP/2016/ILP-VpetoDrevo.sagews)
-    - [`ILP-Kukavica.sagews`](CLP/2016/ILP-Kukavica.sagews)
-    - [`ILP-Vinar.sagews`](CLP/2016/ILP-Vinar.sagews)
+    - [`ILP-VpetoDrevo.sagews`](CLP/2016/ILP-VpetoDrevo.sagews) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/2016/ILP-VpetoDrevo.sagews)
+    - [`ILP-Kukavica.sagews`](CLP/2016/ILP-Kukavica.sagews) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/2016/ILP-Kukavica.sagews)
+    - [`ILP-Vinar.sagews`](CLP/2016/ILP-Vinar.sagews) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/2016/ILP-Vinar.sagews)
 
 ### Vaje 9.11.2016 - dinamično programiranje
 
@@ -100,7 +102,7 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
 * [`DinamicnoProgramiranje`](DinamicnoProgramiranje/)
     - [`loncki.py`](DinamicnoProgramiranje/loncki.py)
     - [`razporeditev.py`](DinamicnoProgramiranje/razporeditev.py)
-    - [`Podjetje.sagews`](DinamicnoProgramiranje/Podjetje.sagews)
+    - [`Podjetje.sagews`](DinamicnoProgramiranje/Podjetje.sagews) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/DinamicnoProgramiranje/Podjetje.sagews)
 
 ### Vaje 30.11.2016 - strukture za grafe
 
