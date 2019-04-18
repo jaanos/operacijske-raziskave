@@ -32,6 +32,13 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`tat.py`](DinamicnoProgramiranje/tat.py)
     - [`hlod.py`](DinamicnoProgramiranje/hlod.py)
 
+### Vaje 18.4.2019 - dinamično programiranje
+
+* [`DinamicnoProgramiranje`](DinamicnoProgramiranje/)
+    - [`razporeditev.py`](DinamicnoProgramiranje/razporeditev.py)
+    - [`loncki.py`](DinamicnoProgramiranje/loncki.py)
+    - [`podjetje.ipynb`](DinamicnoProgramiranje/podjetje.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/DinamicnoProgramiranje/podjetje.ipynb)
+
 ## Prejšnja leta
 
 * [2017/18](arhiv.md#201718)
