@@ -92,7 +92,7 @@ def dvojniDijkstra(G, s, t):
 
     Algoritem uporablja eno samo kopico,
     kjer vsak vnos ustreza paru (vozlišče, začetno vozlišče).
-    Iskanje se konča, ko se neko vozlišče odstrani iz obeh kopic.
+    Iskanje se konča, ko se neko vozlišče drugič odstrani iz kopice.
     Najkrajša pot potem poteka bodisi skozi najdeno vozlišče,
     bodisi skozi katero drugo vozlišče izmed vozlišč,
     doseženih od enega od s in t, ki so sosedna kateremu od vozlišč,
