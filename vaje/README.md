@@ -61,6 +61,12 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
         + `bellmanFord`
     - [`dag.py`](Grafi/dag.py)
 
+### Vaje 30.5.2019 - načrtovanje projektov
+
+* [`NacrtovanjeProjektov`](NacrtovanjeProjektov/)
+    - [`LP-Gradbinec.ipynb`](NacrtovanjeProjektov/LP-Gradbinec.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/NacrtovanjeProjektov/LP-Gradbinec.ipynb)
+    - [`PERT-Prenova.ipynb`](NacrtovanjeProjektov/PERT-Prenova.ipynb)
+
 ## Prejšnja leta
 
 * [2017/18](arhiv.md#201718)
