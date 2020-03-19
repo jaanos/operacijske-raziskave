@@ -43,14 +43,14 @@
     <script>
       var config = {
         startOnLoad:true,
-        theme: 'forest',
+        theme: 'default',
         flowchart:{
           useMaxWidth:false,
           htmlLabels:true
         }
       };
       mermaid.initialize(config);
-      window.mermaid.init(undefined, document.querySelectorAll('pre[lang=mermaid] > code'));
+      window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
