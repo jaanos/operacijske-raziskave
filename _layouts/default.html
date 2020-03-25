@@ -23,7 +23,9 @@
       {% if site.title and site.title != page.title %}
       <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
         {% if page.hackmd %}
-        <a href=".">« nazaj</a>
+        <p align="right">
+          <a href=".">« nazaj</a>
+        </p>
         {% endif %}
       {% endif %}
 
