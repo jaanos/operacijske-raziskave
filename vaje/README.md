@@ -23,6 +23,15 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`plakati.py`](DinamicnoProgramiranje/plakati.py)
     - [`matrixPath.py`](DinamicnoProgramiranje/matrixPath.py)
 
+### Vaje 6.4.2020 - dinamično programiranje
+
+* [`DinamicnoProgramiranje`](DinamicnoProgramiranje/)
+    - [`palindrom.py`](DinamicnoProgramiranje/palindrom.py)
+    - [`submatrixSum.py`](DinamicnoProgramiranje/submatrixSum.py)
+    - [`tat.py`](DinamicnoProgramiranje/tat.py)
+    - [`hlod.py`](DinamicnoProgramiranje/hlod.py)
+    - [`kovanci.py`](DinamicnoProgramiranje/kovanci.py)
+
 ## Prejšnja leta
 
 * [2018/19](arhiv.md#201819)
