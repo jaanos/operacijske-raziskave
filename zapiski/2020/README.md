@@ -5,3 +5,4 @@
 * [`2020-03-30.md`](2020-03-30.md) - dinamično programiranje
 * [`2020-04-06.md`](2020-04-06.md) - dinamično programiranje
 * [`2020-04-08.md`](2020-04-08.md) - dinamično programiranje
+* [`2020-04-20.md`](2020-04-20.md) - podatkovne strukture za grafe
