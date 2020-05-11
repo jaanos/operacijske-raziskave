@@ -52,6 +52,15 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`kopica.py`](Grafi/kopica.py)
     - [`poti.py`](Grafi/poti.py)
 
+### Vaje 11.5.2019 - iskanje v globino, Bellman-Fordov algoritem, topološko urejanje
+
+* [`Grafi`](Grafi/)
+    - [`strukture.py`](Grafi/strukture.py)
+        + `DFS`
+    - [`poti.py`](Grafi/poti.py)
+        + `bellmanFord`
+    - [`dag.py`](Grafi/dag.py)
+
 ## Prejšnja leta
 
 * [2018/19](arhiv.md#201819)
