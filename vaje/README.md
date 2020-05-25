@@ -52,7 +52,7 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`kopica.py`](Grafi/kopica.py)
     - [`poti.py`](Grafi/poti.py)
 
-### Vaje 11.5.2019 - iskanje v globino, Bellman-Fordov algoritem, topološko urejanje
+### Vaje 11.5.2020 - iskanje v globino, Bellman-Fordov algoritem, topološko urejanje
 
 * [`Grafi`](Grafi/)
     - [`strukture.py`](Grafi/strukture.py)
@@ -60,6 +60,12 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`poti.py`](Grafi/poti.py)
         + `bellmanFord`
     - [`dag.py`](Grafi/dag.py)
+
+### Vaje 25.5.2020 - načrtovanje projektov
+
+* [`NacrtovanjeProjektov`](NacrtovanjeProjektov/)
+    - [`LP-Gradbinec.ipynb`](NacrtovanjeProjektov/LP-Gradbinec.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/NacrtovanjeProjektov/LP-Gradbinec.ipynb)
+    - [`PERT-Prenova.ipynb`](NacrtovanjeProjektov/PERT-Prenova.ipynb)
 
 ## Prejšnja leta
 
