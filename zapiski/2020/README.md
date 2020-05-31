@@ -10,3 +10,4 @@
 * [`2020-05-11.md`](2020-05-11.md) - iskanje v globino, Bellman-Fordov algoritem, topološko urejanje
 * [`2020-05-18.md`](2020-05-18.md) - načrtovanje projektov - metoda kritične poti (CPM)
 * [`2020-05-25.md`](2020-05-25.md) - načrtovanje projektov - modeliranje z linearnim programom, model PERT
+* [`2020-06-01.md`](2020-06-01.md) - upravljanje zalog
