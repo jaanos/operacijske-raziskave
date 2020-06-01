@@ -67,6 +67,12 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`LP-Gradbinec.ipynb`](NacrtovanjeProjektov/LP-Gradbinec.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/NacrtovanjeProjektov/LP-Gradbinec.ipynb)
     - [`PERT-Prenova.ipynb`](NacrtovanjeProjektov/PERT-Prenova.ipynb)
 
+### Vaje 1.6.2020 - upravljanje zalog
+
+* [`UpravljanjeZalog`](UpravljanjeZalog/)
+    - [`Zvocniki.ipynb`](UpravljanjeZalog/Zvocniki.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/UpravljanjeZalog/Zvocniki.ipynb)
+    - [`Akumulatorji.ipynb`](UpravljanjeZalog/Akumulatorji.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/UpravljanjeZalog/Akumulatorji.ipynb)
+
 ## Prejšnja leta
 
 * [2018/19](arhiv.md#201819)
