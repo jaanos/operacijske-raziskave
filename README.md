@@ -7,4 +7,6 @@ Repozitorij z gradivi pri predmetu Operacijske raziskave (2. letnik finančne ma
 ## Vsebina
 
 * [`vaje/`](vaje/) - algoritmi z vaj
-* [`zapiski/2020/`](zapiski/2020/) - zapiski vaj na daljavo (š.l. 2019/20)
+* [`zapiski/`](zapiski/) - zapiski vaj na daljavo
+  - Vaje na daljavo iz leta [2020](zapiski/2020/)
+  - Vaje na daljavo iz leta [2021](zapiski/2021/)
