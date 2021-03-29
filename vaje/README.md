@@ -15,6 +15,12 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`CLP-Kukavica.ipynb`](CLP/CLP-Kukavica.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/CLP-Kukavica.ipynb)
     - [`CLP-Vinar.ipynb`](CLP/CLP-Vinar.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/CLP-Vinar.ipynb)
 
+### Vaje 29.3.2021 - dinamično programiranje
+
+* [`DinamicnoProgramiranje`](DinamicnoProgramiranje/)
+    - [`plakati.py`](DinamicnoProgramiranje/plakati.py)
+    - [`matrixPath.py`](DinamicnoProgramiranje/matrixPath.py)
+
 ## Prejšnja leta
 
 * [2019/20](arhiv.md#201920)
