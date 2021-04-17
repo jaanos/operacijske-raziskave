@@ -8,3 +8,4 @@
 * [`2021-03-29.md`](2021-03-29.md) - dinamično programiranje
 * [`2021-04-08.md`](2021-04-08.md) - dinamično programiranje
 * [`2021-04-12.md`](2021-04-12.md) - dinamično programiranje
+* [`2021-04-19.md`](2021-04-19.md) - podatkovne strukture za grafe
