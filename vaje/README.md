@@ -37,6 +37,11 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`loncki.py`](DinamicnoProgramiranje/loncki.py)
     - [`podjetje.ipynb`](DinamicnoProgramiranje/podjetje.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/DinamicnoProgramiranje/podjetje.ipynb)
 
+### Vaje 19.4.2021 - strukture za grafe
+
+* [`Grafi`](Grafi/)
+    - [`strukture.py`](Grafi/strukture.py)
+
 ## Prejšnja leta
 
 * [2019/20](arhiv.md#201920)
