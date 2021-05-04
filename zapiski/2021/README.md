@@ -9,3 +9,4 @@
 * [`2021-04-08.md`](2021-04-08.md) - dinamično programiranje
 * [`2021-04-12.md`](2021-04-12.md) - dinamično programiranje
 * [`2021-04-19.md`](2021-04-19.md) - podatkovne strukture za grafe
+* [`2021-05-06.md`](2021-05-06.md) - iskanje v širino, Dijkstrov algoritem
