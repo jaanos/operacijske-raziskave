@@ -157,3 +157,27 @@ def bellmanFord(G, u):
         if len(naslednji) > 0:
             raise ValueError("graf ima negativen cikel")
     return (razdalje, p)
+
+def floydWarshall(G):
+    """
+    Poišče najkrajše razdalje za vsak par vozlišč.
+
+    Časovna zahtevnost: O(n^3)
+    """
+    inf = float('inf')
+    razdalje = {(u, v): 0 if u == v else inf for u in G.vozlisca() for v in G.vozlisca()}
+    p = {(u, u): None for u in G.vozlisca()}
+    for u in G.vozlisca():
+        for v, r in G.utezeniSosedi(u).items():
+            razdalje[u, v] = r
+            p[u, v] = u
+    for w in G.vozlisca():
+        for u in G.vozlisca():
+            if razdalje[u, w] + razdalje[w, u] < 0:
+                raise ValueError("graf ima negativen cikel")
+            for v in G.vozlisca():
+                r = razdalje[u, w] + razdalje[w, v]
+                if r < razdalje[u, v]:
+                    razdalje[u, v] = r
+                    p[u, v] = p[w, v]
+    return (razdalje, p)
