@@ -49,6 +49,8 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
         + `BFS`
     - [`kopica.py`](Grafi/kopica.py)
     - [`poti.py`](Grafi/poti.py)
+        + `dijkstra`
+        + `dvojniDijkstra`
 
 ### Vaje 10.5.2021 - iskanje v globino, Bellman-Fordov algoritem, topološko urejanje
 
@@ -58,7 +60,19 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`poti.py`](Grafi/poti.py)
         + `bellmanFord`
     - [`dag.py`](Grafi/dag.py)
+        + `topoloskaUreditev`
+        + `najkrajsaPotDAG`
+        + `najdaljsaPotDAG`
 
+### Vaje 17.5.2021 - Floyd-Warshallov algoritem, uporaba algoritmov na grafih
+
+* [`Grafi`](Grafi/)
+    - [`poti.py`](Grafi/poti.py)
+        + `floydWarshall`
+        + `obstajaPot`
+        + `minNajdaljsaPovezava`
+    - [`dag.py`](Grafi/dag.py)
+        + `steviloPoti`
 
 ## Prejšnja leta
 
