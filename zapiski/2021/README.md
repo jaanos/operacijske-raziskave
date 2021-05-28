@@ -13,3 +13,4 @@
 * [`2021-05-10.md`](2021-05-10.md) - iskanje v globino, Bellman-Fordov algoritem, topološko urejanje
 * [`2021-05-17.md`](2021-05-17.md) - Floyd-Warshallov algoritem, uporaba algoritmov na grafih
 * [`2021-05-24.md`](2021-05-24.md) - načrtovanje projektov - metoda kritične poti (CPM)
+* [`2021-05-31.md`](2021-05-31.md) - načrtovanje projektov - modeliranje z linearnim programom, model PERT
