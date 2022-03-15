@@ -9,6 +9,14 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
 * [`Zahtevnost`](Zahtevnost/)
     - [`zahtevnost.py`](Zahtevnost/zahtevnost.py)
 
+### Vaje 14.3.2022 - dinamično programiranje
+
+* [`DinamicnoProgramiranje`](DinamicnoProgramiranje/)
+    - [`plakati.py`](DinamicnoProgramiranje/plakati.py)
+    - [`matrixPath.py`](DinamicnoProgramiranje/matrixPath.py)
+    - [`palindrom.py`](DinamicnoProgramiranje/palindrom.py)
+    - [`submatrixSum.py`](DinamicnoProgramiranje/submatrixSum.py)
+
 ## Prejšnja leta
 
 * [2019/20](arhiv.md#201920)
