@@ -17,8 +17,17 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
     - [`palindrom.py`](DinamicnoProgramiranje/palindrom.py)
     - [`submatrixSum.py`](DinamicnoProgramiranje/submatrixSum.py)
 
+### Vaje 21.3.2022 - dinamično programiranje
+
+* [`DinamicnoProgramiranje`](DinamicnoProgramiranje/)
+    - [`tat.py`](DinamicnoProgramiranje/tat.py)
+    - [`hlod.py`](DinamicnoProgramiranje/hlod.py)
+    - [`razporeditev.py`](DinamicnoProgramiranje/razporeditev.py)
+    - [`loncki.py`](DinamicnoProgramiranje/loncki.py)
+
 ## Prejšnja leta
 
+* [2020/21](arhiv.md#202021)
 * [2019/20](arhiv.md#201920)
 * [2018/19](arhiv.md#201819)
 * [2017/18](arhiv.md#201718)
