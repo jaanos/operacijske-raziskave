@@ -31,6 +31,11 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
 * [`DinamicnoProgramiranje`](DinamicnoProgramiranje/)
     - [`podjetje.ipynb`](DinamicnoProgramiranje/podjetje.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/DinamicnoProgramiranje/podjetje.ipynb)
 
+### Vaje 25.4.2022 - strukture za grafe
+
+* [`Grafi`](Grafi/)
+    - [`strukture.py`](Grafi/strukture.py)
+
 ## Prejšnja leta
 
 * [2020/21](arhiv.md#202021)
