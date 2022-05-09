@@ -36,6 +36,16 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
 * [`Grafi`](Grafi/)
     - [`strukture.py`](Grafi/strukture.py)
 
+### Vaje 9.5.2022 - iskanje v širino, Dijkstrov algoritem
+
+* [`Grafi`](Grafi/)
+    - [`strukture.py`](Grafi/strukture.py)
+        + `BFS`
+    - [`kopica.py`](Grafi/kopica.py)
+    - [`poti.py`](Grafi/poti.py)
+        + `dijkstra`
+        + `dvojniDijkstra`
+
 ## Prejšnja leta
 
 * [2020/21](arhiv.md#202021)
