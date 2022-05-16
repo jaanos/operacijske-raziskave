@@ -52,6 +52,26 @@
 
 ### Vaje 10.5.2021 - iskanje v globino, Bellman-Fordov algoritem, topološko urejanje
 
+* [`Grafi`](Grafi/)
+    - [`strukture.py`](Grafi/strukture.py)
+        + `DFS`
+    - [`poti.py`](Grafi/poti.py)
+        + `bellmanFord`
+    - [`dag.py`](Grafi/dag.py)
+        + `topoloskaUreditev`
+        + `najkrajsaPotDAG`
+        + `najdaljsaPotDAG`
+
+### Vaje 17.5.2021 - Floyd-Warshallov algoritem, uporaba algoritmov na grafih
+
+* [`Grafi`](Grafi/)
+    - [`poti.py`](Grafi/poti.py)
+        + `floydWarshall`
+        + `obstajaPot`
+        + `minNajdaljsaPovezava`
+    - [`dag.py`](Grafi/dag.py)
+        + `steviloPoti`
+
 ## 2019/20
 
 ### Vaje 24.2.2020 - zahtevnost algoritmov

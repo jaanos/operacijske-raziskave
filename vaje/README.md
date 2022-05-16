@@ -46,6 +46,16 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
         + `dijkstra`
         + `dvojniDijkstra`
 
+### Vaje 16.5.2022 - iskanje v globino, Bellman-Fordov algoritem
+
+* [`Grafi`](Grafi/)
+    - [`strukture.py`](Grafi/strukture.py)
+        + `DFS`
+    - [`poti.py`](Grafi/poti.py)
+        + `bellmanFord`
+        + `obstajaPot`
+        + `minNajdaljsaPovezava`
+
 ## Prejšnja leta
 
 * [2020/21](arhiv.md#202021)
