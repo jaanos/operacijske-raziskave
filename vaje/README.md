@@ -56,6 +56,15 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
         + `obstajaPot`
         + `minNajdaljsaPovezava`
 
+### Vaje 23.5.2022 - topološko urejanje, načrtovanje projektov
+
+* [`Grafi`](Grafi/)
+    - [`dag.py`](Grafi/dag.py)
+        + `topoloskaUreditev`
+        + `najkrajsaPotDAG`
+        + `najdaljsaPotDAG`
+        + `steviloPoti`
+
 ## Prejšnja leta
 
 * [2020/21](arhiv.md#202021)
