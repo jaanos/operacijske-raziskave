@@ -10,4 +10,4 @@ Repozitorij z gradivi pri predmetu Operacijske raziskave (2. letnik finančne ma
 * [`zapiski/`](zapiski/) - zapiski vaj na daljavo
   - Vaje na daljavo iz leta [2020](zapiski/2020/)
   - Vaje na daljavo iz leta [2021](zapiski/2021/)
-  - Vaje na daljavo iz leta [2022](zapiski/2022/)
+  - Vaje iz leta [2022](zapiski/2022/)
