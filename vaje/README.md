@@ -65,6 +65,11 @@ Tukaj so zbrani algoritmi, ki smo jih srečali na vajah.
         + `najdaljsaPotDAG`
         + `steviloPoti`
 
+### Vaje 30.5.2022 - načrtovanje projektov
+
+* [`NacrtovanjeProjektov`](NacrtovanjeProjektov/)
+    - [`PERT-Prenova.ipynb`](NacrtovanjeProjektov/PERT-Prenova.ipynb)
+
 ## Prejšnja leta
 
 * [2020/21](arhiv.md#202021)
