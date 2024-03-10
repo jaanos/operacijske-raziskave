@@ -5,7 +5,9 @@ channels:
   - conda-forge
 
 dependencies:
-  - sage
+  - jupyterlab
+  - ipywidgets
+  - sage=9.6
   - pip
   - pip:
     - RISE==5.6.1
