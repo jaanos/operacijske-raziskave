@@ -8,6 +8,6 @@ dependencies:
   - jupyterlab
   - ipywidgets
   - sage=9.6
-  - pip
+  - pip=23.2.1
   - pip:
     - RISE==5.6.1

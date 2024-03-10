@@ -10,8 +10,8 @@
 ### Vaje 15.3.2021 - celoštevilsko linearno programiranje
 
 * [`CLP`](CLP/)
-    - [`CLP-Kukavica.ipynb`](CLP/CLP-Kukavica.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/CLP-Kukavica.ipynb)
-    - [`CLP-Vinar.ipynb`](CLP/CLP-Vinar.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/CLP-Vinar.ipynb)
+    - [`CLP-Kukavica.ipynb`](CLP/CLP-Kukavica.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/CLP/CLP-Kukavica.ipynb)
+    - [`CLP-Vinar.ipynb`](CLP/CLP-Vinar.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/CLP/CLP-Vinar.ipynb)
 
 ### Vaje 29.3.2021 - dinamično programiranje
 
@@ -33,7 +33,7 @@
 * [`DinamicnoProgramiranje`](DinamicnoProgramiranje/)
     - [`razporeditev.py`](DinamicnoProgramiranje/razporeditev.py)
     - [`loncki.py`](DinamicnoProgramiranje/loncki.py)
-    - [`podjetje.ipynb`](DinamicnoProgramiranje/podjetje.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/DinamicnoProgramiranje/podjetje.ipynb)
+    - [`podjetje.ipynb`](DinamicnoProgramiranje/podjetje.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/DinamicnoProgramiranje/podjetje.ipynb)
 
 ### Vaje 19.4.2021 - strukture za grafe
 
@@ -82,8 +82,8 @@
 ### Vaje 16.3.2020 - celoštevilsko linearno programiranje
 
 * [`CLP`](CLP/)
-    - [`CLP-Kukavica.ipynb`](CLP/CLP-Kukavica.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/CLP-Kukavica.ipynb)
-    - [`CLP-Vinar.ipynb`](CLP/CLP-Vinar.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/CLP-Vinar.ipynb)
+    - [`CLP-Kukavica.ipynb`](CLP/CLP-Kukavica.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/CLP/CLP-Kukavica.ipynb)
+    - [`CLP-Vinar.ipynb`](CLP/CLP-Vinar.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/CLP/CLP-Vinar.ipynb)
 
 ### Vaje 30.3.2020 - dinamično programiranje
 
@@ -105,7 +105,7 @@
 * [`DinamicnoProgramiranje`](DinamicnoProgramiranje/)
     - [`razporeditev.py`](DinamicnoProgramiranje/razporeditev.py)
     - [`loncki.py`](DinamicnoProgramiranje/loncki.py)
-    - [`podjetje.ipynb`](DinamicnoProgramiranje/podjetje.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/DinamicnoProgramiranje/podjetje.ipynb)
+    - [`podjetje.ipynb`](DinamicnoProgramiranje/podjetje.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/DinamicnoProgramiranje/podjetje.ipynb)
 
 ### Vaje 20.4.2020 - strukture za grafe
 
@@ -132,14 +132,14 @@
 ### Vaje 25.5.2020 - načrtovanje projektov
 
 * [`NacrtovanjeProjektov`](NacrtovanjeProjektov/)
-    - [`LP-Gradbinec.ipynb`](NacrtovanjeProjektov/LP-Gradbinec.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/NacrtovanjeProjektov/LP-Gradbinec.ipynb)
+    - [`LP-Gradbinec.ipynb`](NacrtovanjeProjektov/LP-Gradbinec.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/NacrtovanjeProjektov/LP-Gradbinec.ipynb)
     - [`PERT-Prenova.ipynb`](NacrtovanjeProjektov/PERT-Prenova.ipynb)
 
 ### Vaje 1.6.2020 - upravljanje zalog
 
 * [`UpravljanjeZalog`](UpravljanjeZalog/)
-    - [`Zvocniki.ipynb`](UpravljanjeZalog/Zvocniki.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/UpravljanjeZalog/Zvocniki.ipynb)
-    - [`Akumulatorji.ipynb`](UpravljanjeZalog/Akumulatorji.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/UpravljanjeZalog/Akumulatorji.ipynb)
+    - [`Zvocniki.ipynb`](UpravljanjeZalog/Zvocniki.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/UpravljanjeZalog/Zvocniki.ipynb)
+    - [`Akumulatorji.ipynb`](UpravljanjeZalog/Akumulatorji.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/UpravljanjeZalog/Akumulatorji.ipynb)
 
 
 ## 2018/19
@@ -152,8 +152,8 @@
 ### Vaje 7.3.2019 - celoštevilsko linearno programiranje
 
 * [`CLP`](CLP/)
-    - [`CLP-Kukavica.ipynb`](CLP/CLP-Kukavica.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/CLP-Kukavica.ipynb)
-    - [`CLP-Vinar.ipynb`](CLP/CLP-Vinar.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/CLP-Vinar.ipynb)
+    - [`CLP-Kukavica.ipynb`](CLP/CLP-Kukavica.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/CLP/CLP-Kukavica.ipynb)
+    - [`CLP-Vinar.ipynb`](CLP/CLP-Vinar.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/CLP/CLP-Vinar.ipynb)
 
 ### Vaje 8.4.2019 - dinamično programiranje
 
@@ -175,7 +175,7 @@
 * [`DinamicnoProgramiranje`](DinamicnoProgramiranje/)
     - [`razporeditev.py`](DinamicnoProgramiranje/razporeditev.py)
     - [`loncki.py`](DinamicnoProgramiranje/loncki.py)
-    - [`podjetje.ipynb`](DinamicnoProgramiranje/podjetje.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/DinamicnoProgramiranje/podjetje.ipynb)
+    - [`podjetje.ipynb`](DinamicnoProgramiranje/podjetje.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/DinamicnoProgramiranje/podjetje.ipynb)
 
 ### Vaje 9.5.2019 - strukture za grafe
 
@@ -202,7 +202,7 @@
 ### Vaje 30.5.2019 - načrtovanje projektov
 
 * [`NacrtovanjeProjektov`](NacrtovanjeProjektov/)
-    - [`LP-Gradbinec.ipynb`](NacrtovanjeProjektov/LP-Gradbinec.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/NacrtovanjeProjektov/LP-Gradbinec.ipynb)
+    - [`LP-Gradbinec.ipynb`](NacrtovanjeProjektov/LP-Gradbinec.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/NacrtovanjeProjektov/LP-Gradbinec.ipynb)
     - [`PERT-Prenova.ipynb`](NacrtovanjeProjektov/PERT-Prenova.ipynb)
 
 
@@ -216,8 +216,8 @@
 ### Vaje 12.3.2018 - celoštevilsko linearno programiranje
 
 * [`CLP`](CLP/)
-    - [`CLP-Kukavica.ipynb`](CLP/CLP-Kukavica.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/CLP-Kukavica.ipynb)
-    - [`CLP-Vinar.ipynb`](CLP/CLP-Vinar.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/CLP/CLP-Vinar.ipynb)
+    - [`CLP-Kukavica.ipynb`](CLP/CLP-Kukavica.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/CLP/CLP-Kukavica.ipynb)
+    - [`CLP-Vinar.ipynb`](CLP/CLP-Vinar.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/CLP/CLP-Vinar.ipynb)
 
 ### Vaje 16.4.2018 - dinamično programiranje
 
@@ -266,14 +266,14 @@
 ### Vaje 28.5.2018 - načrtovanje projektov
 
 * [`NacrtovanjeProjektov`](NacrtovanjeProjektov/)
-    - [`LP-Gradbinec.ipynb`](NacrtovanjeProjektov/LP-Gradbinec.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/NacrtovanjeProjektov/LP-Gradbinec.ipynb)
+    - [`LP-Gradbinec.ipynb`](NacrtovanjeProjektov/LP-Gradbinec.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/NacrtovanjeProjektov/LP-Gradbinec.ipynb)
     - [`PERT-Prenova.ipynb`](NacrtovanjeProjektov/PERT-Prenova.ipynb)
 
 ### Vaje 6.6.2018 - upravljanje zalog
 
 * [`UpravljanjeZalog`](UpravljanjeZalog/)
-    - [`Zvocniki.ipynb`](UpravljanjeZalog/Zvocniki.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/UpravljanjeZalog/Zvocniki.ipynb)
-    - [`Akumulatorji.ipynb`](UpravljanjeZalog/Akumulatorji.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?filepath=vaje/UpravljanjeZalog/Akumulatorji.ipynb)
+    - [`Zvocniki.ipynb`](UpravljanjeZalog/Zvocniki.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/UpravljanjeZalog/Zvocniki.ipynb)
+    - [`Akumulatorji.ipynb`](UpravljanjeZalog/Akumulatorji.ipynb) [![Launch in Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jaanos/operacijske-raziskave/master?labpath=vaje/UpravljanjeZalog/Akumulatorji.ipynb)
 
 
 ## 2016/17
